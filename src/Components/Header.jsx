@@ -1,14 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import {
-  Box,
-  AppBar,
-  Toolbar,
-  IconButton,
-  Typography,
-  Button,
-  Tooltip,
-} from '@mui/material';
+import { Box,AppBar,Toolbar,IconButton,Typography,Button,Tooltip} from '@mui/material';
+
 
 function Header() {
   const title = "An AI rBuilder suggest job-specific keywords, professional summaries, and skill recommendations to make the resume more effective and ATS (Applicant Tracking System) friendly. The main goal of the AI Powered Resume Builder is to simplify the resume creation process and help job seekers build professional, well-structured resumes in a few minutes. Users can select templates, edit content, preview their resume, and download it in formats such as PDF."
@@ -28,6 +21,8 @@ function Header() {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           <Link to={"/"} className='text-light text-decoration-none'>AI rBuilder</Link>
           </Typography>
+          <Link  to={'/all-resumes'} className='text-light text-decoration-none mx-2' > ALL RESUMES</Link>
+          <Link  to={'/downloads'}  className='text-light text-decoration-none mx-2'>DOWNLOAD HISTORY</Link>
           <Tooltip title = {title}> <Button color="inherit">ABOUT US</Button></Tooltip> 
         </Toolbar>
       </AppBar>
