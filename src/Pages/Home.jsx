@@ -5,10 +5,10 @@ function Home() {
   return (
     <div>
       {/* Landing */}
-      <div style={{ height: "100vh", background: 'url(/LandingPage.png)', backgroundSize: 'cover', backgroundAttachment: 'fixed' }} className='d-flex justify-content-center align-items-center'>
+      <div style={{ height: "100vh", background: 'url(/team.png)', backgroundSize: 'cover', backgroundAttachment: 'fixed' }} className='d-flex justify-content-center align-items-center'>
         <div style={{ backgroundColor: 'rgba(0,0,0,0.6)' }} className='text-center rounded p-5 w-50 text-light'>
           <h1>Designed To Get Hired,   Your Skills, Your Story, Your Next Job - All In One.</h1>
-          <Link to={'/resume'} style={{ backgroundColor: "#6B5546" }} className='btn text-light'>Make Your Resume With AI</Link>
+          <Link to={'/resume'} style={{ backgroundColor: "#6c4830" }} className='btn text-light'>Make Your Resume With AI</Link>
         </div>
       </div>
       {/* About */}
@@ -32,13 +32,13 @@ function Home() {
           </div>
           <div className='col-lg-1'></div>
           <div className='col-lg-5'>
-            <img style={{height : '100%'}} className='img-fluid' src="/About.png" alt="About" />
+            <img style={{height : '100%'}} className='img-fluid' src="/bmeeting.png" alt="About" />
           </div>
 
         </div>
       </div>
       {/* Images */}
-       <div style={{ height: "100vh", background: 'url(/ProfessionalMeeting.png)', backgroundSize: 'cover', backgroundAttachment: 'fixed' }} className='d-flex justify-content-center align-items-center'></div>
+       <div style={{ height: "100vh", background: 'url(/meeting.jpg)', backgroundSize: 'cover', backgroundAttachment: 'fixed' }} className='d-flex justify-content-center align-items-center'></div>
       {/* Testimonial */}
       <div className='container my-5'>
         <h1 className='my-5 text-center'>Testimony</h1>

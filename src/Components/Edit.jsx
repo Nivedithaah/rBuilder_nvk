@@ -96,8 +96,8 @@ toast.warning("Please fill the form completely");
               <TextField value={resumeDetails?.fullname} onChange={e => setResumeDetails({...resumeDetails, fullname : e.target.value})} id="standard-basic-name" label="Full Name" variant="standard" />
               <TextField value={resumeDetails?.location} onChange={e => setResumeDetails({...resumeDetails, location : e.target.value})} id="standard-basic-location" label="Location" variant="standard" />
               <FormControl variant="standard">
-                <InputLabel id="demo-simple-select-label">Choose Job Title</InputLabel>
-                <Select onChange={e => setResumeDetails({...resumeDetails, job : e.target.value})} 
+                <InputLabel  id="demo-simple-select-label">Choose Job Title</InputLabel>
+                <Select value={resumeDetails?.job} onChange={e => setResumeDetails({...resumeDetails, job : e.target.value})} 
                   labelId="demo-simple-select-label"
                   id="demo-simple-select"
                   label="Job"

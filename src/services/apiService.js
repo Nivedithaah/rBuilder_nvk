@@ -26,3 +26,13 @@ export const editAllResumeApi = async (resumeId ,resumeDetails) => {
      return await axiosService("PUT", `/resumes/${resumeId}`,resumeDetails); 
 }
 
+
+// download resume Api : called by view componenet when download button clicks
+export const downloadResumeApi = async (resumeDetails) => {
+     return await axiosService("POST", `/downloads`,resumeDetails); 
+}
+
+// get download resume Api : called by download componenet when page loads in browser 
+export const getAllDownloadResumeApi = async (resumeDetails) => {
+     return await axiosService("GET", `/downloads`,{}); 
+}

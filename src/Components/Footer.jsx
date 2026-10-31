@@ -5,7 +5,7 @@ import { FaPhoneAlt, FaInstagram, FaFacebook, FaWhatsapp } from "react-icons/fa"
 
 function Footer() {
   return (
-    <div style={{backgroundColor : 'black', height : "320px", backgroundColor : '#6B5546'}} className='container-fluid text-light p-5'>
+    <div style={{backgroundColor : 'black', height : "320px", backgroundColor : '#976d51'}} className='container-fluid text-light p-5'>
       <div className='row'>
         <div className='col-lg-4'>
           <h4 className='mb-3'>AI rBuilder</h4>
